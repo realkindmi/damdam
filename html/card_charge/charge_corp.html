@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <a class="btn back left" href="">뒤로가기</a>
+        <h1>교통카드 충전</h1>
+    </div>
+    <!--s.content-->
+    <div class="content">
+        <!-- s.top_info -->
+        <div class="top_info type2">
+            <div class="container">
+                <div class="txt_area txtc">
+                    <p class="blue">보유 교통페이 포인트</p>
+                    <div class="balance">
+                        <i class="logo_tp">교통페이</i>잔액 3,200원
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- e.top_info -->
+        <!-- s.container -->
+        <div class="container">
+            <div class="item_div">
+                <div class="ct_tt">
+                    <h3>결제 수단 선택</h3>
+                </div>
+                <div class="ct_sub_tt">
+                    <h4>결제수수료 (8%)</h4>
+                </div>
+                <div class="ct_item">
+                    <ul class="radio_list w3 clearfix">
+                        <li>
+                            <input id="payletter1" class="radio_type1 ic_2_payletter" name="pay_method" type="radio"><label for="payletter1">Payletter</label>
+                        </li>
+                        <li>
+                            <input id="danal1" class="radio_type1 ic_2_danal" name="pay_method" type="radio"><label for="danal1">Danal</label>
+                        </li>
+                        <li>
+                            <input id="galaxia1" class="radio_type1 ic_2_galaxia" name="pay_method" type="radio"><label for="galaxia1">Galaxia</label>
+                        </li>
+                        <li>
+                            <input id="kgm1" class="radio_type1 ic_2_kg" name="pay_method" type="radio"><label for="kgm1">KG모빌리언스</label>
+                        </li>
+                        <li>
+                            <input id="stb1" class="radio_type1 ic_2_stb" name="pay_method" type="radio"><label for="stb1">Settle Bank</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ct_sub_tt">
+                    <h4>결제수수료 (12%)</h4>
+                </div>
+                <div class="ct_item">
+                    <ul class="radio_list w3 clearfix">
+                        <li>
+                            <input id="payletter2" class="radio_type1 ic_2_payletter" name="pay_method" type="radio"><label for="payletter2">Payletter</label>
+                        </li>
+                        <li>
+                            <input id="danal2" class="radio_type1 ic_2_danal" name="pay_method" type="radio"><label for="danal2">Danal</label>
+                        </li>
+                        <li>
+                            <input id="galaxia2" class="radio_type1 ic_2_galaxia" name="pay_method" type="radio"><label for="galaxia2">Galaxia</label>
+                        </li>
+                        <li>
+                            <input id="kgm2" class="radio_type1 ic_2_kg" name="pay_method" type="radio"><label for="kgm2">KG모빌리언스</label>
+                        </li>
+                         <li>
+                            <input id="stb2" class="radio_type1 ic_2_stb" name="pay_method" type="radio"><label for="stb2">Settle Bank</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="save_chk">
+                	<input id="chk_use" class="chk_box" type="checkbox"><label for="chk_use">지금 선택한 결제 수단을 다음에도 사용</label>
+                </div>
+            </div>
+            <div class="item_div">
+                <div class="ct_tt">
+                    <h3>충전금액</h3>
+                </div>
+                <div class="ct_sub_tt">
+                    <h4>사용 가능 캐시</h4>
+                    <div class="tool_tip_area">
+                        <a class="btn_info" href="javascript:void(0);">정보</a>
+                        <div class="tool_tip">
+                            <p>교통카드 충전은 유료 캐시만 사용할 수 있습니다.</p>
+                            <a class="tt_close" href="javascript:void(0);">닫기</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <span class="fwb red">0원</span>
+                        <a class="btn_refresh" href="javascript:void(0);">새로고침</a>
+                    </div>
+                </div>
+                <div class="ct_item">
+                    <div class="input_btn">
+                        <input class="input typeA" type="text" placeholder="1천원 단위 최대 20만원" value="10,000" onkeyup="inputNumberFormat(this)">
+                        <span class="btn_del"></span>
+                    </div>
+                    <script src="../../js/format.js"></script>
+                </div>
+                <div class="ct_item">
+                    <div class="option_list w4">
+                        <ul class="btn_list clearfix">
+                            <li>5만원</li>
+                            <li>1만원</li>
+                            <li>5천원</li>
+                            <li>1천원</li>
+                        </ul>
+                    </div>
+				</div>
+            </div>
+        </div>
+        <!-- e.container -->
+        <div class="total_price">
+            <dl class="clearfix">
+            	<dt>충전금액</dt>
+                <dd>10,000</dd>
+            	<dt>수수료 <span class="txt_dis">(2%)</span> (0%)</dt>
+                <dd>0</dd>
+                <dt class="total">최종 결제 금액</dt>
+                <dd class="total">10,000원</dd>
+            </dl>
+        </div>
+    </div>
+    <!-- e.content -->
+    <div class="bottom_area">
+        <!-- button 1 -->
+        <button class="btn_bottom tag" type="button" disabled>충전금액을 입력하세요</button>
+    </div>
+</div>
+</body>
+</html>

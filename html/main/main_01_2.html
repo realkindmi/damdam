@@ -1,0 +1,131 @@
+    <!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="main_header">
+        <div class="left">
+            <span class="toggle_switch on"></span>
+        </div>
+        <h1 class="header_logo">부비NFC</h1>
+        <div class="button_area right">
+            <a class="btn_point" href="javascript:void(0);">포인트</a>
+            <a class="btn_alarm" href="javascript:void(0);">알림</a>
+        </div>
+    </div>
+    <div class="main_contents">
+        <div class="main_text container">
+            <p>안녕하세요. 박준혁 님</p>
+            <p><strong>수수료 0원</strong>으로 교통카드 충전하러 가시겠어요?</p>
+        </div>
+        <div class="status_box">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1">
+                        <div class="slide_ct">
+                            <span class="logo cashbee">cash bee</span>
+                            <div class="bal_inquiry">
+                                <strong class="balance">2,000,000원</strong>
+                            </div>
+                            <span class="account">1234-5678-9801-2345</span>
+                        </div>
+                        <div class="nav_ct">
+                            <ul class="clearfix">
+                                <li>
+                                    <a class="btn_toss dis" href="javascript:void(0);">간편결제</a>
+                                </li>
+                                <li>
+                                    <a class="btn_history" href="javascript:void(0);">카드내역</a>
+                                </li>
+                                <li>
+                                    <a class="btn_wish dis" href="javascript:void(0);">조르기</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide2">
+                        <div class="slide_ct">
+                            <span class="logo bubi">부비NFC</span>
+                            <div class="bal_inquiry">
+                                <strong class="balance">2,000,000 P</strong>
+                            </div>
+                        </div>
+                        <div class="nav_ct">
+                            <ul class="clearfix">
+                                <li>
+                                    <a class="btn_charge" href="javascript:void(0);">캐시충전</a>
+                                </li>
+                                <li>
+                                    <a class="btn_import" href="javascript:void(0);">가져오기</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_pagination swiper-pagination"></div>
+		</div>
+    </div>
+    <div class="main_bottom">
+        <div class="event_banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background:#ffcb2d;">
+                    
+                </div>
+                <div class="swiper-slide" style="background:#fab2b4;">
+                    
+                </div>
+                <div class="swiper-slide" style="background:#b8d6f3;">
+                    
+                </div>
+            </div>
+        </div>
+        <ul class="main_navi clearfix">
+            <li>
+                <a class="btn_home on" href="javascript:void(0);">홈</a>
+            </li>
+            <li>
+                <a class="btn_shopping" href="javascript:void(0);">쇼핑</a>
+            </li>
+            <li>
+                <a class="btn_charge" href="javascript:void(0);">충전</a>
+            </li>
+            <li>
+                <a class="btn_history" href="javascript:void(0);">이용내역</a>
+            </li>
+            <li>
+                <a class="btn_more" href="javascript:void(0);">더보기</a>
+            </li>
+        </ul>
+    </div>
+    <script src="../../js/swiper.min.js"></script>
+    <script>
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 1,
+            spaceBetween:20,
+            slideShadows:true,
+			pagination: {
+				el: '.box_pagination',
+				clickable: true
+			}
+		});
+        
+        var swiper2 = new Swiper('.event_banner', {
+            slidesPerView:'auto',
+            spaceBetween:10,
+            loop:true
+        });
+  	</script>
+</div>
+</body>
+</html>

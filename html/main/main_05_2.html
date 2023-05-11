@@ -1,0 +1,95 @@
+    <!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="main_header">
+        <div class="left">
+            <span class="toggle_switch off"></span>
+        </div>
+        <h1 class="header_logo">댐댐</h1>
+        <div class="button_area right">
+            <a class="btn_alarm new" href="javascript:void(0);">알림</a>
+        </div>
+    </div>
+    <div class="main_contents container2">
+        <div class="top_text">
+            <p><i class="ic_point"></i>지금 받을 수 있는 포인트</p>
+            <span class="point">9,999+ P</span>
+        </div>
+
+        <div class="status_box card_type">
+            <div class="card_box">
+                <div class="slide_ct">
+                    <span class="logo trafficpay">교통페이</span>
+                </div>
+                <div class="flex_wrap">
+                    <a class="btn_main" href="javascript:void(0);">로그인</a>
+                </div>
+            </div>
+            <div class="card_box">
+                <div class="flex_wrap">
+                    <img class="img_tag" src="../../images/img_tag_info.svg" alt="">
+                    <a class="btn_main" href="javascript:void(0);">카드 조회하기</a>
+                </div>
+            </div>
+        </div>
+        <div class="event_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../../images/main_banner_sample.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../../images/main_banner_sample.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../../images/main_banner_sample.png">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+        
+    <div class="main_bottom bottom_area">
+        <ul class="main_navi clearfix">
+            <li>
+                <a class="btn_charge" href="javascript:void(0);">충전</a>
+            </li>
+            <li>
+                <a class="btn_shopping" href="javascript:void(0);">쇼핑</a>
+            </li>
+            <li>
+                <a class="btn_benefit" href="javascript:void(0);">혜택</a>
+            </li>
+            <li>
+                <a class="btn_history" href="javascript:void(0);">이용내역</a>
+            </li>
+            <li>
+                <a class="btn_more" href="javascript:void(0);">더보기</a>
+            </li>
+        </ul>
+    </div>
+    <script src="../../js/swiper.min.js"></script>
+    <script>        
+        var swiper = new Swiper('.event_swiper', {
+            pagination:{
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            slidesPerView:'auto',
+            loop:true
+        });
+  	</script>
+</div>
+</body>
+</html>

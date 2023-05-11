@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <a class="btn back left" href="">뒤로가기</a>
+        <h1>교통페이 충전</h1>
+    </div>
+    <!--s.content-->
+    <div class="content">
+        <!-- s.top_info -->
+        <div class="top_info type2">
+            <div class="container">
+                <!-- case 2 : tmoney-->
+                <div class="txt_area txtc">
+                    <p class="blue">보유 교통페이 포인트</p>
+                    <div class="balance">
+                        <p><i class="logo_tp">티머니</i>0P<a class="btn_refresh" href="javascript:void(0);">새로고침</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- e.top_info -->
+        <!-- s.container -->
+        <div class="container">
+            <div class="charge_banner">
+                <img src="../../images/charge_banner.png" alt="">
+            </div>
+            <div class="item_div">
+                <div class="ct_tt">
+                    <h3>결제 수단 선택</h3>
+                </div>
+                <div class="ct_item">
+                    <ul class="radio_list w3 clearfix">
+                        <li>
+                            <input id="phone" class="radio_type1 ic_phone" name="pay_method" type="radio"><label for="phone">휴대폰</label>
+                        </li>
+                        <li>
+                            <input id="credit_card" class="radio_type1 ic_credit" name="pay_method" type="radio"><label for="credit_card">신용카드</label>
+                        </li>
+                        <li>
+                            <input id="tcard" class="radio_type1 ic_tc" name="pay_method" type="radio"><label for="tcard">교통카드</label>
+                        </li>
+                        <li>
+                            <input id="smailepay" class="radio_type1 ic_smp" name="pay_method" type="radio"><label for="smailepay">스마일페이</label>
+                        </li>
+                        <li>
+                            <input id="toss" class="radio_type1 ic_toss" name="pay_method" type="radio"><label for="toss">토스</label>
+                        </li>
+                        <li>
+                            <input id="kakaopay" class="radio_type1 ic_kakao" name="pay_method" type="radio"><label for="kakaopay">카카오페이</label>
+                        </li>
+                        <li>
+                            <input id="culture_cash" class="radio_type1 ic_cc" name="pay_method" type="radio"><label for="culture_cash">컬처캐쉬</label>
+                        </li>
+                        <li>
+                            <input id="happy_moeny" class="radio_type1 ic_happymn" name="pay_method" type="radio"><label for="happy_moeny">해피머니</label>
+                        </li>
+                        <li>
+                            <input id="booknlife" class="radio_type1 ic_bnl" name="pay_method" type="radio"><label for="booknlife">도서문화상품권</label>
+                        </li>
+                        <li>
+                            <input id="Lpoint" class="radio_type1 ic_lpoint" name="pay_method" type="radio"><label for="Lpoint" class="remark">L.point</label>
+                        </li>
+                        
+                        <li>
+                            <input id="chaipay" class="radio_type1 ic_chai" name="pay_method" type="radio"><label for="chaipay">차이페이</label>
+                        </li>
+                        <li>
+                            <input id="tcoin" class="radio_type1 ic_tcoin" name="pay_method" type="radio"><label for="tcoin">티코인</label>
+                        </li>
+                    </ul>
+                    <div class="save_chk">
+                        <input id="chk_use" class="chk_box" type="checkbox" checked><label for="chk_use">지금 선택한 결제 수단을 다음에도 사용</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item_div">
+                <div class="ct_tt">
+                    <h3>충전금액 및 수수료</h3>
+                </div>
+                <div class="ct_item">
+                    <div class="input_btn">
+                        <input class="input typeA" type="text" placeholder="1천원 단위 최대 20만원" onkeyup="inputNumberFormat(this)">
+                        <span class="btn_del"></span>
+                    </div>
+                    <script src="../../js/format.js"></script>
+                </div>
+                <div class="ct_item">
+                    <div class="option_list w4">
+                        <ul class="btn_list clearfix">
+                            <li>5만원</li>
+                            <li>1만원</li>
+                            <li>5천원</li>
+                            <li>1천원</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- e.container -->
+        <div class="total_price">
+            <dl class="clearfix">
+                <dt>결제금액</dt>
+                <dd>0원</dd>
+                <dt>수수료(0%)</dt>
+                <dd>0원</dd>
+                <dt class="total">최종 결제 금액</dt>
+                <dd class="total">0원</dd>
+            </dl>
+        </div>
+    </div>
+    <!-- e.content -->
+    <div class="bottom_area">
+        <button class="btn_bottom tag" type="button" disabled>결제금액을 입력하세요</button>
+    </div>
+</div>
+</body>
+</html>

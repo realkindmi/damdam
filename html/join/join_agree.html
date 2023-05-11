@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <h1>회원가입</h1>
+        <a class="btn back left" href="">뒤로가기</a>
+    </div>
+    <div class="join_cash">
+    	<div class="container2">
+			<h2>무료 적립 캐시</h2>
+			<span class="earned_cash">0</span>
+			<div class="ic_coin">
+				<span class="c01 none"></span>
+			</div>
+		</div>
+    </div>
+    <div class="container2">
+    	<p class="join_txt">회원가입을 하시면<br><strong>무료 캐시</strong>를 드립니다!</p>
+    	<div class="chk_list">
+            <div class="chk_items_all all_check">
+                <input id="chk_all" class="chk_box" name="chk_all" type="checkbox"><label for="chk_all">전체 선택</label>
+            </div>
+            <ul class="chk_items check_list">
+                <li>
+                    <input id="chk_service" class="chk_box" name="chk_item" type="checkbox" required><label for="chk_service">서비스 이용약관 (필수)</label>
+                    <a href="../terms/terms_service.html">상세보기</a>
+                </li>
+                <li>
+                    <input id="chk_privacy" class="chk_box" name="chk_item" type="checkbox" required><label for="chk_privacy">개인정보 수집 및 이용동의 (필수)</label>
+                    <a href="../terms/terms_privacy.html">상세보기</a>
+                </li>
+                <li>
+                    <input id="chk_financ" class="chk_box" name="chk_item" type="checkbox" required><label for="chk_financ">전자금융거래 이용약관 (필수)</label>
+                    <a href="../terms/terms_privacy.html">상세보기</a>
+                </li>
+                <li>
+                    <input id="chk_marketing" class="chk_box" name="chk_item" type="checkbox"><label for="chk_marketing">마케팅 홍보 알림 동의 (선택)</label>
+                </li>
+                <li>
+                    <input id="chk_login" class="chk_box" name="chk_item" type="checkbox"><label for="chk_login">가입완료 후 자동 로그인 (선택)</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom_area">
+        <button class="btn_bottom" type="button">확인</button>
+    </div>
+</div>
+</body>
+</html>

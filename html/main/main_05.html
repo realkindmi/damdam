@@ -1,0 +1,162 @@
+    <!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="main_header">
+        <div class="left">
+            <span class="toggle_switch off"></span>
+        </div>
+        <h1 class="header_logo">댐댐</h1>
+        <div class="button_area right">
+            <a class="btn_alarm new" href="javascript:void(0);">알림</a>
+        </div>
+    </div>
+    <div class="main_contents container2">
+        <div class="top_text">
+            <p><i class="ic_point"></i>지금 받을 수 있는 포인트</p>
+            <span class="point">9,999+ P</span>
+        </div>
+
+        <div class="status_box card_type">
+            <div class="card_box">
+                <div class="slide_ct">
+                    <span class="logo trafficpay">교통페이</span>
+                    <div class="bal_inquiry">
+                        <strong class="balance">200,000 P</strong>
+                        <a class="btn_view" href="javascript:void(0);">상세</a>
+                    </div>
+                </div>
+                <div class="nav_ct">
+                    <ul class="clearfix">
+                        <li>
+                            <a class="btn_charge" href="javascript:void(0);">충전</a>
+                        </li>
+                        <li>
+                            <a class="btn_change" href="javascript:void(0);">전환</a>
+                        </li>
+                        <li>
+                            <a class="btn_fcharge" href="javascript:void(0);">무료충전</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card_box">
+                <div class="slide_ct">
+                    <span class="logo tmoney">Tmoney</span>
+                    <div class="bal_inquiry">
+                        <strong class="balance">2,000,000</strong>
+                    </div>
+                    <span class="account">1234-5678-9801-2345</span>
+                </div>
+                <div class="nav_ct">
+                    <ul class="clearfix">
+                        <li>
+                            <a class="btn_charge" href="javascript:void(0);">충전</a>
+                        </li>
+                        <li>
+                            <a class="btn_history" href="javascript:void(0);">내역</a>
+                        </li>
+                        <li class="label event">
+                            <a class="btn_toss" href="javascript:void(0);">toss</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="event_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../../images/main_banner_sample.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../../images/main_banner_sample.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../../images/main_banner_sample.png">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+        
+    <div class="main_bottom bottom_area">
+        <ul class="main_navi clearfix">
+            <li>
+                <a class="btn_charge" href="javascript:void(0);">충전</a>
+            </li>
+            <li>
+                <a class="btn_shopping" href="javascript:void(0);">쇼핑</a>
+            </li>
+            <li>
+                <a class="btn_benefit" href="javascript:void(0);">혜택</a>
+            </li>
+            <li>
+                <a class="btn_history" href="javascript:void(0);">이용내역</a>
+            </li>
+            <li>
+                <a class="btn_more" href="javascript:void(0);">더보기</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="popWrap">
+    <div class="intro_pop">
+        <div class="top_area">
+            <a class="today_hide"><i class="ic_chk"></i>오늘 하루 보지 않기</a>
+            <a class="btn_close">닫기</a>
+        </div>
+        <div class="pop_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../../images/intro_popup_sample.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../../images/intro_popup_sample.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../../images/intro_popup_sample.png">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+<script>
+$(document).ready(function(){
+   $('.intro_pop .btn_close').click(function(){
+       $('.popWrap').fadeOut();
+       $('.intro_pop').css('bottom', '-100%');
+   });
+});
+</script>
+<script src="../../js/swiper.min.js"></script>
+<script>        
+    var swiper = new Swiper('.event_swiper', {
+        pagination:{
+            el: ".swiper-pagination",
+            type: "fraction",
+        },
+        loop:true
+    });
+    
+    var swiper2 = new Swiper('.pop_swiper', {
+        pagination:{
+            el: ".swiper-pagination",
+            type: "fraction",
+        },
+        loop:true
+    });
+</script>
+</body>
+</html>
