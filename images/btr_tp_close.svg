@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:none;stroke:#707070;stroke-width:.6px}
+        </style>
+    </defs>
+    <g id="prefix__btr_tp_close" transform="translate(-280 -544)">
+        <g id="prefix__그룹_560" data-name="그룹 560" transform="translate(-38.55 346.45)">
+            <path id="prefix__패스_342" d="M0 0v10.617" class="prefix__cls-1" data-name="패스 342" transform="rotate(-45 404.567 -288.577)"/>
+            <path id="prefix__선_12" d="M0 0L0 10.617" class="prefix__cls-1" data-name="선 12" transform="rotate(45 -78.264 499.189)"/>
+        </g>
+        <path id="prefix__사각형_360" d="M0 0H15V15H0z" data-name="사각형 360" transform="translate(280 544)" style="fill:none"/>
+    </g>
+</svg>

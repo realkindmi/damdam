@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#fff;stroke:#a5a5a5;stroke-width:1.2px}.cls-3{fill:#a5a5a5}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="btn_info" transform="translate(-320 -11)">
+        <path id="사각형_307" d="M0 0h35v35H0z" class="cls-1" data-name="사각형 307" transform="translate(320 11)"/>
+        <g id="그룹_383" data-name="그룹 383" transform="translate(5 3)">
+            <g id="타원_70" class="cls-2" data-name="타원 70" transform="translate(323 16)">
+                <circle cx="9.5" cy="9.5" r="9.5" class="cls-4"/>
+                <circle cx="9.5" cy="9.5" r="8.9" class="cls-1"/>
+            </g>
+            <g id="그룹_382" data-name="그룹 382" transform="translate(149.154 -363.842)">
+                <path id="패스_477" d="M184.826 386.518a1.283 1.283 0 0 0-1.373-1.359 2.284 2.284 0 0 0-1.7.855l-.91-.827a3.665 3.665 0 0 1 2.789-1.345 2.483 2.483 0 0 1 2.761 2.563c0 2.047-2.5 2.8-2.256 4.891h-1.416c-.333-2.354 2.105-3.251 2.105-4.778zm-2.453 7.133a1.081 1.081 0 1 1 2.158 0 1.08 1.08 0 1 1-2.158 0z" class="cls-3" data-name="패스 477"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+    <path data-name="사각형 530" style="fill:none" d="M0 0h21v21H0z"/>
+    <g data-name="그룹 1155">
+        <g data-name="그룹 1154">
+            <g data-name="그룹 432">
+                <path data-name="패스 402" d="M6527.5 6100.782a7.935 7.935 0 1 0 7.935 7.935 7.945 7.945 0 0 0-7.935-7.935zm0 15.14a7.205 7.205 0 1 1 7.2-7.205 7.213 7.213 0 0 1-7.2 7.205z" transform="translate(-6518.567 -6098.782)" style="fill:#2a2e3a"/>
+            </g>
+            <g data-name="그룹 700">
+                <path data-name="패스 688" d="M7696.247 6663.529a.388.388 0 0 1-.387-.388v-7.1a.388.388 0 0 1 .387-.388h2.714a2.26 2.26 0 0 1 2.305 2.255 2.154 2.154 0 0 1-2.305 2.292h-1.275a.387.387 0 1 1 0-.774h1.275a1.4 1.4 0 0 0 1.528-1.518 1.483 1.483 0 0 0-1.528-1.48h-2.326v6.708a.388.388 0 0 1-.388.393z" transform="translate(-7689.073 -6649.335)" style="fill:#1698ef"/>
+            </g>
+        </g>
+        <g data-name="그룹 1153" transform="translate(-250.162 -247.064)">
+            <rect data-name="사각형 560" width="7.658" height="2.169" rx=".8" transform="translate(262.176 258.327)" style="fill:#fff;stroke:#2a2e3a;stroke-linecap:round;stroke-linejoin:round;stroke-width:.8px"/>
+            <rect data-name="사각형 561" width="7.658" height="2.169" rx=".8" transform="translate(262.176 260.506)" style="fill:#fff;stroke:#2a2e3a;stroke-linecap:round;stroke-linejoin:round;stroke-width:.8px"/>
+            <rect data-name="사각형 562" width="7.658" height="2.169" rx=".8" transform="translate(262.176 262.666)" style="fill:#fff;stroke:#2a2e3a;stroke-linecap:round;stroke-linejoin:round;stroke-width:.8px"/>
+        </g>
+    </g>
+</svg>

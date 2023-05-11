@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-3{fill:none}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="btn_radio_s" transform="translate(-191 -462)">
+        <g id="타원_3" fill="#fafafa" stroke="#0a82ff" stroke-width="0.5px" transform="translate(194 465)">
+            <circle cx="8" cy="8" r="8" class="cls-4"/>
+            <circle cx="8" cy="8" r="7.75" class="cls-3"/>
+        </g>
+        <g id="타원_4" fill="#0a82ff" stroke="#006bda" stroke-width="0.5px" transform="translate(197 468)">
+            <circle cx="5" cy="5" r="5" class="cls-4"/>
+            <circle cx="5" cy="5" r="4.75" class="cls-3"/>
+        </g>
+        <path id="사각형_52" d="M0 0H22V22H0z" class="cls-3" transform="translate(191 462)"/>
+    </g>
+</svg>

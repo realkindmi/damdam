@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="21" viewBox="0 0 60 21">
+    <g id="prefix__btn_retry" transform="translate(-281 -510)">
+        <g id="prefix__사각형_350" data-name="사각형 350" transform="translate(281 510)" style="stroke:#707070;stroke-width:.5px;fill:none">
+            <rect width="60" height="21" rx="10.5" style="stroke:none"/>
+            <rect width="59.5" height="20.5" x=".25" y=".25" rx="10.25" style="fill:none"/>
+        </g>
+        <path id="prefix__패스_539" d="M-11.682-7.15h1.793v-.737h-4.576v.737h1.914v.77A4.9 4.9 0 01-14.7-1.9l.55.682a4.606 4.606 0 002.046-3 4.414 4.414 0 002 2.662l.528-.693a4.442 4.442 0 01-2.106-4.131zm4.631-1.914v3.993h-1.3v-3.762H-9.2V.33h.847v-4.653h1.3V.814h.869v-9.878zm6.072.864h-.891v1.771a5.184 5.184 0 01-2.651 4.46l.55.737a5.483 5.483 0 002.552-3.311 5.358 5.358 0 002.541 3.124l.539-.726a4.908 4.908 0 01-2.64-4.279zM2.7-9.053V.836h.9v-9.889zm7.86 7.876v-2.53h3v-.726H7.678v-3.091h5.786v-.737H6.776v4.554h2.871v2.53H5.632v.748H14.6v-.748z" data-name="패스 539" transform="translate(318 525)" style="fill:#7a7a7a"/>
+        <path id="prefix__패스_538" d="M7.064 2a5.491 5.491 0 00-5.481 5.233H0l2.374 3.1 2.335-3.1H3.153a3.922 3.922 0 113.911 4.186 3.883 3.883 0 01-1.964-.537l-.919 1.278a5.436 5.436 0 002.883.829A5.494 5.494 0 007.064 2z" data-name="패스 538" transform="translate(286.721 513.006)" style="fill:#aaa"/>
+    </g>
+</svg>

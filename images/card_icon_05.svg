@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="0 0 50 30">
+    <defs>
+        <style>
+            .cls-1{fill:#1698ef}.cls-2{fill:#2a2e3a}.cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="card_icon_05" transform="translate(-228 -354)">
+        <g id="그룹_511" data-name="그룹 511" transform="translate(-6861.245 -5544.152)">
+            <path id="패스_487" d="M7152.674 5938.847h-13.822l4.266-3.892a.552.552 0 1 0-.745-.815l-5.262 4.8a.552.552 0 0 0 0 .818l5.447 4.9a.552.552 0 0 0 .739-.821l-4.32-3.889h13.695a.552.552 0 0 0 0-1.1z" class="cls-1" data-name="패스 487" transform="translate(-27.72 -26.247)"/>
+            <g id="그룹_510" data-name="그룹 510" transform="translate(7102.245 5901.152)">
+                <path id="패스_488" d="M7114.245 5925.152a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22.9a10.9 10.9 0 1 0 10.9 10.9 10.908 10.908 0 0 0-10.9-10.896z" class="cls-2" data-name="패스 488" transform="translate(-7102.245 -5901.152)"/>
+            </g>
+        </g>
+        <path id="사각형_306" d="M0 0h50v30H0z" class="cls-3" data-name="사각형 306" transform="translate(228 354)"/>
+    </g>
+</svg>

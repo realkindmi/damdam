@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.155" height="12.806" viewBox="0 0 12.155 12.806">
+    <defs>
+        <style>
+            .cls-1{fill:#05abe1}
+        </style>
+    </defs>
+    <g id="down_arrow_01" transform="translate(-1440.947 -1333.646)">
+        <g id="icon_arrow" transform="rotate(90 5957.076 585.148)">
+            <path id="패스_346" d="M6712.3 5101.277a.728.728 0 0 1-.515-1.243l4.835-4.835-4.835-4.835a.728.728 0 0 1 1.029-1.029l5.35 5.35a.727.727 0 0 1 0 1.029l-5.35 5.35a.725.725 0 0 1-.514.213z" class="cls-1" data-name="패스 346"/>
+        </g>
+        <g id="icon_arrow-2" data-name="icon_arrow" transform="rotate(90 5960.076 582.148)">
+            <path id="패스_346-2" d="M6712.3 5101.277a.728.728 0 0 1-.515-1.243l4.835-4.835-4.835-4.835a.728.728 0 0 1 1.029-1.029l5.35 5.35a.727.727 0 0 1 0 1.029l-5.35 5.35a.725.725 0 0 1-.514.213z" class="cls-1" data-name="패스 346"/>
+        </g>
+    </g>
+</svg>
