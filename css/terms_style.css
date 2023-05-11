@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#wrap {position:relative; width:100%; height:100%;}
+
+/* text */
+.txtc {text-align:center !important;}
+
+/* 약관 */
+.terms_content {padding:30px 25px; letter-spacing:-0.4px;}
+.terms_content > * {line-height:1.5;}
+.terms_content p {margin-top:25px; font-size:14px;}
+.terms_content p:first-child {margin-top:0;}
+.terms_content table {position:relative; margin-top:10px;}
+.terms_content table:after {display:block; position:absolute; bottom:0; width:100%; height:1px; background:#333; content:'';}
+.terms_content table thead {background:#e2e2e2;}
+.terms_content table thead th {font-size:13px; text-align:center; border-top:1px solid #333; border-left:0; border-right:0; vertical-align:middle;}
+.terms_content table th, .terms_content table td {min-width:50px; padding:7px 10px; font-size:12px; border-left:1px solid #ccc; border-top:1px solid #ccc;  word-break:keep-all; word-wrap:break-word;}
+.terms_content table td:first-child {border-left:none;}
+
+.terms_content .section {margin-top:45px;}
+.terms_content .section:first-child {margin-top:0;}
+.terms_content .section li {position:relative; padding-left:20px; font-size:14px;}
+.terms_content .section li > i {position:absolute; top:0; left:0; font-weight:300;}
+.terms_content .section li > table {margin-left:-20px; width:calc(100% + 20px);}
+
+.terms_content .section > h2 {margin-top:20px; margin-bottom:20px; font-size:18px; text-align:center;}
+.terms_content .section > h3 {margin-bottom:10px; font-size:16px;}
+.terms_content .section > h3 + p {margin:0;}
+.terms_content .section > h3 + h4 {margin-top:30px;}
+.terms_content .section > h4 {margin:10px 0 3px; font-size:14px; font-weight:500;}
+.terms_content .section > ol > li {margin-top:20px;}
+.terms_content .section > ol > li li {margin-top:5px;}
+.terms_content .section > ol > li > ol {margin-top:15px;}
+.terms_content .section > ol > li p {margin-top:5px;}
+.terms_content .section .pn > li {padding-left:0;}
+.terms_content .section .link {margin-top:60px; font-size:12px; text-decoration:underline;}
