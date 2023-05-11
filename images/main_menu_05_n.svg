@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:#313b48}.cls-2{fill:none}
+        </style>
+    </defs>
+    <g id="main_menu_05_n" transform="translate(-308 -576)">
+        <g id="그룹_408" data-name="그룹 408" transform="translate(-5462.638 1869.34)">
+            <g id="그룹_337" data-name="그룹 337" transform="translate(5775.638 -1288.34)">
+                <path id="패스_351" d="M5785.638-1269.7c-5.514 0-10-4.18-10-9.318s4.486-9.318 10-9.318 10 4.18 10 9.318a8.812 8.812 0 0 1-1.659 5.142l1.045 2.757a.544.544 0 0 1-.1.555.544.544 0 0 1-.538.169l-3.3-.807a10.476 10.476 0 0 1-5.448 1.502zm0-17.545c-4.912 0-8.907 3.69-8.907 8.227s4 8.226 8.907 8.226a9.378 9.378 0 0 0 5.058-1.454.544.544 0 0 1 .423-.07l2.517.615-.783-2.065a.544.544 0 0 1 .076-.525 7.747 7.747 0 0 0 1.618-4.727c-.001-4.54-3.997-8.23-8.909-8.23z" class="cls-1" data-name="패스 351" transform="translate(-5775.638 1288.34)"/>
+            </g>
+            <g id="그룹_338" data-name="그룹 338" transform="translate(5780.196 -1280.022)">
+                <circle id="타원_17" cx="1.091" cy="1.091" r="1.091" class="cls-1" data-name="타원 17"/>
+            </g>
+            <g id="그룹_339" data-name="그룹 339" transform="translate(5784.426 -1280.022)">
+                <circle id="타원_18" cx="1.091" cy="1.091" r="1.091" class="cls-1" data-name="타원 18"/>
+            </g>
+            <g id="그룹_340" data-name="그룹 340" transform="translate(5788.654 -1280.022)">
+                <circle id="타원_19" cx="1.091" cy="1.091" r="1.091" class="cls-1" data-name="타원 19"/>
+            </g>
+        </g>
+        <path id="사각형_302" d="M0 0h30v30H0z" class="cls-2" data-name="사각형 302" transform="translate(308 576)"/>
+    </g>
+</svg>

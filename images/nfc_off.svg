@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="23" viewBox="0 0 57 23">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__nfc_off" transform="translate(-20 -53)">
+        <rect id="prefix__사각형_233" width="57" height="23" data-name="사각형 233" rx="11.5" transform="translate(20 53)" style="fill:#cbd9e3"/>
+        <path id="prefix__패스_508" d="M-9.355 0h.968v-4.235c0-.847-.077-1.7-.121-2.519h.044l.864 1.661L-4.658 0h1.045v-8.063h-.968v4.191c0 .836.077 1.738.132 2.552H-4.5l-.858-1.661L-8.3-8.063h-1.055zm7.942 0H-.39v-3.619h3.08v-.858H-.39v-2.728h3.63v-.858h-4.653zm9 .143a3.117 3.117 0 002.473-1.155L9.5-1.65a2.451 2.451 0 01-1.87.9c-1.54 0-2.508-1.276-2.508-3.311 0-2.013 1.012-3.267 2.541-3.267a2.2 2.2 0 011.65.77l.55-.66a2.981 2.981 0 00-2.211-1c-2.046 0-3.575 1.584-3.575 4.191S5.582.143 7.584.143z" class="prefix__cls-2" data-name="패스 508" transform="translate(61 68.143)"/>
+        <g id="prefix__그룹_534" data-name="그룹 534" transform="translate(-26)">
+            <rect id="prefix__사각형_234" width="25" height="17" class="prefix__cls-2" data-name="사각형 234" rx="8.5" transform="translate(49 56)"/>
+            <path id="prefix__패스_509" d="M-5.265.126C-3.5.126-2.286-1.2-2.286-3.357S-3.5-6.786-5.265-6.786s-2.979 1.26-2.979 3.429S-7.029.126-5.265.126zm0-1.152c-.99 0-1.62-.909-1.62-2.331s.63-2.286 1.62-2.286 1.62.855 1.62 2.286-.63 2.331-1.62 2.331zM-.981 0H.351v-2.7h2.367v-1.116H.351v-1.737h2.772V-6.66h-4.1zm5.265 0h1.332v-2.7h2.367v-1.116H5.616v-1.737h2.772V-6.66h-4.1z" data-name="패스 509" transform="translate(62 67.5)" style="fill:#9dadbc"/>
+        </g>
+    </g>
+</svg>

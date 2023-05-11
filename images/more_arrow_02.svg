@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4" height="5" viewBox="0 0 4 5">
+    <defs>
+        <style>
+            .cls-1{fill:#1a5bb1}
+        </style>
+    </defs>
+    <path id="more_arrow_02" d="M2.5 1L5 5H0z" class="cls-1" transform="rotate(90 2.5 2.5)"/>
+</svg>
