@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <a class="btn back left" href="">뒤로가기</a>
+        <h1>계좌이체 충전</h1>
+        <a class="btn info right" href="">정보</a>
+    </div>
+    <div class="container">
+        <div class="item_div">
+            <div class="ct_tt">
+                <h3>충전 금액</h3>
+            </div>
+            <div class="ct_item">
+                <div class="input_btn">
+                    <input class="input typeA" type="text" placeholder="1천원 단위 최대 20만원" value="10,000" onkeyup="inputNumberFormat(this)">
+                    <span class="btn_del"></span>
+                </div>
+            </div>
+            <div class="ct_item option_list w4">
+                <ul class="btn_list clearfix">
+                    <li>5만원</li>
+                    <li>1만원</li>
+                    <li>5천원</li>
+                    <li>1천원</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item_div">
+            <div class="ct_tt">
+                <h3>결제 계좌</h3>
+            </div>
+            <div class="ct_item account_slide_wrap">
+                <div class="account_slide swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="tb">
+                                <div class="tc logo"><img src="../../images/icon_kb.svg"></div>
+                                <div class="tc txt">
+                                    <span class="name">국민 (별명)</span>
+                                    <span class="num">215201-00-000000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tb">
+                                <div class="tc logo"><img src="../../images/icon_nh.svg"></div>
+                                <div class="tc txt">
+                                    <span class="name">농협 (별명)</span>
+                                    <span class="num">215201-00-000000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tb">
+                                <div class="tc logo"><img src="../../images/icon_shinhan.svg"></div>
+                                <div class="tc txt">
+                                    <span class="name">신한 (별명)</span>
+                                    <span class="num">215201-00-000000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tb">
+                                <div class="tc logo"><img src="../../images/icon_kakao.svg"></div>
+                                <div class="tc txt">
+                                    <span class="name">카카오뱅크 (별명)</span>
+                                    <span class="num">215201-00-000000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tb">
+                                <div class="tc logo"><img src="../../images/icon_sh.svg"></div>
+                                <div class="tc txt">
+                                    <span class="name">수협 (별명)</span>
+                                    <span class="num">215201-00-000000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tb">
+                                <div class="tc logo"><img src="../../images/icon_wr.svg"></div>
+                                <div class="tc txt">
+                                    <span class="name">우리 (별명)</span>
+                                    <span class="num">215201-00-000000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_next swiper-button-next"></div>
+                <div class="nav_prev swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_area">
+        <div class="total_area clearfix">
+            <div class="info_tt fl">총 결제금액</div>
+            <div class="info_ct fr">10,300원</div>
+        </div>
+        <button class="btn_bottom" type="button">충전하기</button>
+    </div>
+    <script>
+    // numberformat 입력
+    function inputNumberFormat(obj) {
+        obj.value = comma(uncomma(obj.value));
+    }
+    function comma(str) {
+        str = String(str);
+        return str.replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,');
+    }
+    function uncomma(str) {
+        str = String(str);
+        return str.replace(/[^\d]+/g, '');
+    }
+    </script>
+    <!--계좌 목록-->
+    <script src="../../js/swiper.min.js"></script>
+    <script>
+    var accountSlide = new Swiper('.account_slide', {
+        spaceBetween:45,
+        navigation: {
+            nextEl: '.nav_next',
+            prevEl: '.nav_prev',
+        }
+    });
+    </script>
+</div>
+</body>
+</html>

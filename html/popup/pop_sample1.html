@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<button class="pop_load" type="button">Button</button>
+<div class="pop_wrap pop_view" style="display:none;">
+    <div class="pop_box">
+        <div class="tb">
+            <div class="pop_ct container2">
+                <p class="main_txt">메인 텍스트</p>
+                <p class="sub_txt">text text text text text text<br>text text text text</p>
+            </div>
+            <div class="pop_button">
+                <button type="button">확인</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+$('.pop_load').click(function(){
+    $('.pop_view').fadeIn();
+    $('.pop_view').find('.pop_button').click(function(){
+       $(this).parents('.pop_view').fadeOut(); 
+    });
+});
+</script>
+</body>
+</html>

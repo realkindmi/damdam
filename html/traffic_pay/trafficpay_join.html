@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <a class="btn back left" href="">뒤로가기</a>
+        <h1>회원가입</h1>
+    </div>
+    <div class="container">
+        <div class="item_section">
+            <div class="item_tt">
+                <h3>사용하실 아이디를 입력해 주세요 <i class="red">*</i></h3>
+            </div>
+            <div class="item_ct">
+                <div class="input_mark">
+                    <input class="input" type="email" required><span class="mark">@</span><input class="input" type="email" placeholder="이메일 뒷자리">
+                </div>
+                <p class="nt_message">사용 가능한 아이디 입니다.</p>
+                <select class="select_box" required>
+                    <option value="" hidden>이메일을 선택해 주세요</option>
+                    <option>직접선택</option>
+                    <option>naver.com</option>
+                </select>
+            </div>
+        </div>
+        <div class="item_section">
+            <div class="item_tt">
+                <h3>사용하실 비밀번호를 입력해 주세요 <i class="red">*</i></h3>
+            </div>
+            <div class="item_ct">
+                <input class="input" type="password" required>
+                <input class="input" type="password" required>
+                <p class="nt_message">사용 가능한 비밀번호 입니다.</p>
+            </div>
+        </div>
+        <div class="item_section">
+            <div class="item_tt">
+                <h3>업체 코드를 입력해 주세요 <i class="red">*</i></h3>
+            </div>
+            <div class="item_ct">
+                <div class="input_button">
+                    <input class="input" type="password" required>
+                    <button class="button" type="button">인증 확인</button>
+                </div>
+            </div>
+        </div>
+        <div class="item_section">
+            <div class="item_tt">
+                <h3>업체 정보를 입력해 주세요 <i class="red">*</i></h3>
+            </div>
+            <div class="item_ct">
+                <input class="input" type="text" placeholder="사업자등록번호" required>
+                <input class="input" type="text" placeholder="업체명" required>
+                <input class="input" type="text" placeholder="대표자명" required>
+                <div class="input_button">
+                    <input class="input" type="text" placeholder="우편번호" required>
+                    <button class="button" type="button">주소 찾기</button>
+                </div>
+                <input class="input" type="text" placeholder="상세주소" required>
+            </div>
+        </div>
+        <div class="chk_list">
+            <div class="chk_items_all all_check">
+                <input id="chk_all" class="chk_box" name="chk_all" type="checkbox"><label for="chk_all">아래 내용에 모두 동의 합니다</label>
+            </div>
+            <ul class="chk_items check_list">
+                <li>
+                    <input id="chk_service" class="chk_box" name="chk_item" type="checkbox" required><label for="chk_service">서비스 이용약관 (필수)</label>
+                    <a href="../terms/terms_service.html">자세히보기</a>
+                </li>
+                <li>
+                    <input id="chk_privacy" class="chk_box" name="chk_item" type="checkbox" required><label for="chk_privacy">개인정보 처리방침 (필수)</label>
+                    <a href="../terms/terms_privacy.html">자세히보기</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom_area">
+        <button class="btn_bottom" type="button">가입신청</button>
+    </div>
+</div>
+</body>
+</html>

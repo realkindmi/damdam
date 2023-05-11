@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <a class="btn back left" href="">뒤로가기</a>
+        <h1>교통카드 환불</h1>
+    </div>
+    <!--s.content-->
+    <div class="content">
+        <div class="container">
+            <div class="item_div">
+                <div class="ct_tt ct_sub_tt">
+                    <h3>환불 가능액 <a class="question_mark" href="javascript:void(0);">정보</a></h3>
+					<div class="right">
+						<span class="red fwb">0원</span>
+					</div>
+            	</div>
+            	<div class="ct_item">
+            		<div class="total_price t1">
+						<dl class="clearfix">
+							<dt>유료 포인트</dt>
+							<dd>0원</dd>
+							<dt>무료 포인트</dt>
+							<dd>0원</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+            <div class="item_div">
+                <div class="ct_tt">
+                    <h3>환불 신청액</h3>
+                </div>
+                <div class="ct_item">
+                    <div class="input_btn">
+                        <input class="input typeA" type="text" placeholder="1천원 단위" onkeyup="inputNumberFormat(this)">
+                        <span class="btn_del"></span>
+                    </div>
+                    <script src="../../js/format.js"></script>
+                </div>
+                <div class="ct_item">
+                    <div class="option_list w4">
+                        <ul class="btn_list clearfix">
+                            <li>5만원</li>
+                            <li>1만원</li>
+                            <li>5천원</li>
+                            <li>1천원</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item_div">
+                <div class="ct_tt">
+                    <h3>환불 계좌 정보</h3>
+                </div>
+                <div class="ct_item">
+                	<dl class="member_info clearfix">
+						<dt>은행명</dt>
+						<dd>
+							<select class="select_box">
+								<option>선택</option>
+							</select>
+						</dd>
+						<dt>계좌번호</dt>
+						<dd>
+							<input class="input" type="number" placeholder="(-제외)">
+						</dd>
+						<dt>예금주명</dt>
+						<dd>
+							<input class="input" type="number" placeholder="입력해주세요">
+						</dd>
+					</dl>
+                </div>
+			</div>
+		</div>
+		<div class="total_price">
+			<dl class="clearfix">
+				<dt class="fwb fs">실 계좌 입금액</dt>
+				<dd class="total fs">0원</dd>
+				<dt></dt>
+				<dd class="remark">수수료 0원 차감</dd>
+			</dl>
+		</div>
+		<div class="container">
+			<div class="guide_txt clearfix">
+				<span class="fwb fl">소요기간</span>
+				<span class="fr">신청일로부터 1일 (평균 3시간 이내)</span>
+			</div>
+            <div class="notice_txt">
+            	<h5>[유의사항]</h5>
+				<p>- 교통페이 환불은 유료 포인트에 한하여 환불됩니다.</p>
+				<p>- 교통페이 환불시 일정 수수료가 부과됩니다.<br/>(1만원 미만 :  400원 / 1만원 이상 : 4%)</p>
+				<p>- 1인 환불 금액(횟수)는 월 100만원(3회)로 제한됩니다.</p>
+				<p>- 환불 신청 후, 평균 3시간 이내에 입력하신 계좌로 입금됩니다.<br/>(단, 은행점검 또는 통신망 상태 등에 따라 영업일 기준 최대 1~2일이 소요될 수 있습니다.)</p>
+                <p>※ ID 당 월 30만원의 한도가 적용됩니다.</p>
+            </div>
+        </div>
+    </div>
+    <!-- e.content -->
+    <div class="bottom_area">
+        <button class="btn_bottom" type="button">환불하기</button>
+    </div>
+</div>
+</body>
+</html>

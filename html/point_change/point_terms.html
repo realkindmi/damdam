@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <a class="btn back left" href="">뒤로가기</a>
+        <h1>네이버 포인트</h1>
+    </div>
+    <div class="accordion_list">
+        <div class="all_check">
+            <input id="chk_all" class="chk_box" type="checkbox"><label for="chk_all">모든 약관에 동의 합니다</label>
+        </div>
+        <ul class="check_list">
+            <li>
+                <div class="accordion_item">
+                    <input id="chk_service" class="chk_box" name="chk_item" type="checkbox" required><label for="chk_service">개인 정보 제3자 제공 동의 (네이버페이)</label>
+                    <span class="btn_oc">열기</span>
+                </div>
+                <div class="accordion_ct">
+                    <h2>개인 정보 제3자 제공 동의</h2>
+                    <ul>
+                        <li>- 제공받는 자 : (주)네이버파이낸셜</li>
+                        <li>- 제공 목적 : 네이버 포인트 조회 및 전환</li>
+                        <li>- 제공하는 항목 : 개인 식별 정보 아이핀 CI</li>
+                        <li>- 보유 및 이용 기간 : 서비스 제공 기간<br>(관련 법령의 규정에 의하여 보존할 필요가 있는 경우 및 사전 동의를 득한 경우 해당 보유기간)</li>
+                    </ul>
+                    <p>회원님은 동의를 거부하실 수 있는 권리가 있으나, 동의 거부시 네이버 포인트 전환서비스를 위한 정보가 제공되지 않아 해당 서비스를 이용하실 수 없습니다.</p>
+                </div>
+            </li>
+            <li>
+                <div class="accordion_item">
+                    <input id="chk_privacy" class="chk_box" name="chk_item" type="checkbox" required><label for="chk_privacy">개인 정보 제3자 제공 동의 (티모넷)</label>
+                    <span class="btn_oc">열기</span>
+                </div>
+                <div class="accordion_ct">
+                    <h2>개인 정보 제3자 제공 동의</h2>
+                    <ul>
+                        <li>- 제공받는자 : (주)티모넷</li>
+                        <li>- 제공목적 : 네이버 포인트 조회 및 전환</li>
+                        <li>- 제공하는 항목 : 네이버 포인트 잔액, 개인식별정보</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="bottom_area">
+        <button class="btn_bottom" type="button" disabled>보유 포인트 전체 전환하기</button>
+    </div>
+</div>
+<script>
+$(document).ready(function(){
+    $('.accordion_item .btn_oc').click(function(){
+        $(this).parent().siblings('.accordion_ct').slideToggle();
+        $(this).toggleClass('on');
+    });
+
+    $('.accordion_list input[type=checkbox]').change(function(){
+        var items = $('.check_list input[type=checkbox]').length,
+            items_chk = $('.check_list input[type=checkbox]:checked').length,
+            select_all = (items == items_chk);
+
+        if ( select_all ){
+                $('.btn_bottom').prop("disabled", false);
+        } else {
+                $('.btn_bottom').prop("disabled", true);
+        }
+    });
+});
+</script>
+</body>
+</html>

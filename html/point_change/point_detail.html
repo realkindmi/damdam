@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <a class="btn back left" href="">뒤로가기</a>
+        <h1>네이버 포인트</h1>
+    </div>
+    <div class="container">
+        <div class="point_chage clearfix">
+            <div>
+                <div class="logo tt"><img src="../../images/logo_tp.svg" alt="교통페이"></div>
+                <div class="status">10,000 P<a class="btn_refresh t2" href="javascript:void(0);">새로고침</a></div>
+                <div class="inde minus">- 1,000 P</div>
+            </div>
+            <div class="ic_arrow"></div>
+            <div>
+                <div class="logo tt"><img src="../../images/logo_npay_b.png" alt="네이버페이"></div>
+                <div class="status">10,000 P<a class="btn_refresh t2" href="javascript:void(0);">새로고침</a></div>
+                <div class="inde plus">+ 970 P</div>
+            </div>
+        </div>
+        <!--s.네이버 보유 포인트-->
+        <ul class="chage_list">
+            <li>
+                <input id="point1" class="chk_box" name="pointList" type="checkbox">
+                <label for="point1">tmonet*****<span class="point">30,000 P</span></label>
+            </li>
+            <li>
+                <input id="point2" class="chk_box" name="pointList" type="checkbox">
+                <label for="point2">park*****<span class="point">3,000 P</span></label>
+            </li>
+            <li>
+                <input id="point3" class="chk_box" name="pointList" type="checkbox">
+                <label for="point3">dddnet*****<span class="point">2,000 P</span></label>
+            </li>
+        </ul>
+        <!--e.네이버 보유 포인트-->
+        <div class="item_div">
+            <div class="ct_tt">
+                <h3>전환 요청 포인트<button class="btn_round right" type="button">전체 사용</button></h3>
+            </div>
+            <div class="ct_item">
+                <div class="input_btn">
+                    <input class="input typeA" type="text" placeholder="1천원 단위 최대 20만원" value="3,000" onkeyup="inputNumberFormat(this)">
+                    <span class="btn_del"></span>
+                </div>
+                <script src="../../js/format.js"></script>
+            </div>
+            <div class="ct_item">
+                <div class="option_list w4">
+                    <ul class="btn_list clearfix">
+                        <li>5만원</li>
+                        <li>1만원</li>
+                        <li>5천원</li>
+                        <li>1천원</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="agree_wrap">
+        <div class="desc_txt">
+            <ul>
+                <li>교통페이 포인트 1P는 네이버페이 1P로 전환됩니다.</li>
+                <li>100P 단위로 전환되며, 월 최대 20만원까지 전환 가능합니다.</li>
+                <li class="red">전환 신청 후 회원님의 교통페이 포인트는 네이버페이 포인트로 실시간 전환되며, 이후 취소는 불가합니다.</li>
+                <li>네이버페이 포인트 조회 및 서비스는 네이버 웹 및 앱을 통해서 확인이 가능합니다.</li>
+                <li>전환된 네이버페이 포인트는 현금 인출 및 타 제휴사 포인트로의 재전환이 불가합니다.</li>
+                <li>전환된 포인트는 네이버페이 포인트의 이용정책 및 만료 기준을 따릅니다.</li>
+            </ul>
+            <div class="link_pop txtr">
+                <a class="ic_more" href="javascript:void(0);">개인 정보 제3자 제공 동의 철회</a>
+            </div>
+        </div>
+        <div class="chk_area">
+            <input id="chk_agree" class="chk_box" name="pointList" type="checkbox">
+            <label for="chk_agree">위 내용을 확인하였으며 전환에 동의합니다 <span class="red">*전환 완료 후 취소불가</span></label>
+        </div>
+    </div>
+    <div class="bottom_area">
+        <button class="btn_bottom" type="button">포인트 전환하기</button>
+    </div>
+</div>
+</body>
+</html>

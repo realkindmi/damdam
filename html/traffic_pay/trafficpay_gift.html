@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <a class="btn back left" href="">뒤로가기</a>
+        <h1>포인트 선물</h1>
+    </div>
+    <div class="container">
+        <div class="item_section">
+            <div class="item_tt clearfix">
+                <h3 class="fl">사용하실 아이디를 입력해 주세요 <i class="red">*</i></h3>
+                <a class="btn_round fr" href="javascript:void(0);">최근 보낸사람</a>
+            </div>
+            <div class="item_ct">
+                <div class="input_mark">
+                    <input class="input" type="email" required><span class="mark">@</span><input class="input" type="email" placeholder="이메일 뒷자리">
+                </div>
+                <p class="nt_message">아이디가 확인 되었습니다</p>
+                <select class="select_box" required>
+                    <option value="" hidden>이메일을 선택해 주세요</option>
+                    <option>직접선택</option>
+                    <option>naver.com</option>
+                </select>
+            </div>
+        </div>
+        <div class="item_section">
+            <div class="item_tt">
+                <h3>선물 금액 입력 <i class="red">*</i></h3>
+            </div>
+            <div class="ct_sub_tt">
+                <h4>사용 가능 포인트</h4>
+                <a class="question_mark" href="javascript:void(0);">정보</a>
+                <div class="right">
+                    <span class="red fwb">4,000 P</span>
+                    <button class="btn_round" type="button">전체 사용</button>
+                </div>
+            </div>
+            <div class="item_ct">
+                <div class="input_btn">
+                    <input class="input typeA" type="text" placeholder="1천원 단위 최대 20만원" onkeyup="inputNumberFormat(this)">
+                    <input class="hidden" type="number">
+                    <span class="btn_del"></span>
+                </div>
+                <script src="../../js/format.js"></script>
+                <div class="option_list w4">
+                    <ul class="btn_list clearfix">
+                        <li>5만원</li>
+                        <li>1만원</li>
+                        <li>5천원</li>
+                        <li>1천원</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="item_section">
+            <div class="item_tt">
+                <h3>선물 메세지 입력 <span>(선택)</span></h3>
+            </div>
+            <div class="item_ct">
+                <input class="input" type="text" placeholder="메세지 입력 (최대 20자)">
+            </div>
+        </div>
+    </div>
+    <div class="bottom_area">
+        <button class="btn_bottom" type="button">선물하기</button>
+    </div>
+</div>
+</body>
+</html>

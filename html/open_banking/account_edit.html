@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="../../css/swiper.min.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+	<link rel="stylesheet" href="../../css/bubi_style.css" />
+   	<script src="../../js/jquery-1.12.4.min.js"></script>
+	<script src="../../js/common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="header t2">
+        <a class="btn back left" href="">뒤로가기</a>
+        <h1>오픈뱅킹 계좌 설정</h1>
+    </div>
+    <div class="content_area">
+        <div class="ct_info_txt">
+            <p>등록된 계좌 수정이 가능합니다.</p>
+        </div>
+        <ul class="account_list list_sel">
+            <li>
+                <a class="btn_del" href="javascript:void(0);">삭제</a>
+                <div class="tb">
+                    <div class="item_img">
+                        <img src="../../images/icon_nh.svg">
+                    </div>
+                    <div class="item_ct">
+                        <div class="item_edit">
+                            <strong>농협</strong>
+                            <input class="input_edit" type="text" placeholder="별명 최대 4자" maxlength="4">
+                        </div>
+                        <span>입출금통장 계좌번호 01234567890</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="btn_del" href="javascript:void(0);">삭제</a>
+                <div class="tb">
+                    <div class="item_img">
+                        <img src="../../images/icon_shinhan.svg">
+                    </div>
+                    <div class="item_ct">
+                        <div class="item_name item_edit">
+                            <strong>신한은행</strong>
+                            <input class="input_edit" type="text" placeholder="별명 최대 4자" maxlength="4">
+                        </div>
+                        <span>입출금통장 계좌번호 01234567890</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="btn_del" href="javascript:void(0);">삭제</a>
+                <div class="tb">
+                    <div class="item_img">
+                        <img src="../../images/icon_kakao.svg">
+                    </div>
+                    <div class="item_ct">
+                        <div class="item_edit">
+                            <strong>카카오뱅크</strong>
+                            <input class="input_edit" type="text" placeholder="별명 최대 4자" maxlength="4">
+                        </div>
+                        <span>입출금통장 계좌번호 012345678912</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="btn_del" href="javascript:void(0);">삭제</a>
+                <div class="tb">
+                    <div class="item_img">
+                        <img src="../../images/icon_kb.svg">
+                    </div>
+                    <div class="item_ct">
+                        <div class="item_edit">
+                            <strong>국민은행</strong>
+                            <input class="input_edit" type="text" placeholder="별명 최대 4자" maxlength="4">
+                        </div>
+                        <span>입출금통장 계좌번호 012345678912</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="btn_del" href="javascript:void(0);">삭제</a>
+                <div class="tb">
+                    <div class="item_img">
+                        <img src="../../images/icon_sh.svg">
+                    </div>
+                    <div class="item_ct">
+                        <div class="item_edit">
+                            <strong>수협</strong>
+                            <input class="input_edit" type="text" placeholder="별명 최대 4자" maxlength="4">
+                        </div>
+                        <span>입출금통장 계좌번호 012345678912</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="btn_del" href="javascript:void(0);">삭제</a>
+                <div class="tb">
+                    <div class="item_img">
+                        <img src="../../images/icon_wr.svg">
+                    </div>
+                    <div class="item_ct">
+                        <div class="item_edit">
+                            <strong>우리</strong>
+                            <input class="input_edit" type="text" placeholder="별명 최대 4자" maxlength="4">
+                        </div>
+                        <span>입출금통장 계좌번호 012345678912</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="btn_del" href="javascript:void(0);">삭제</a>
+                <div class="tb">
+                    <div class="item_img">
+                        <img src="../../images/icon_n_logo.svg">
+                    </div>
+                    <div class="item_ct">
+                        <div class="item_edit">
+                            <strong>우리</strong>
+                            <input class="input_edit" type="text" placeholder="별명 최대 4자" maxlength="4">
+                        </div>
+                        <span>입출금통장 계좌번호 012345678912</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="bottom_area btns" style="display:none;">
+        <div class="btn_add_item">
+            <a href="javascript:void(0);">계좌 추가 등록하기</a>
+        </div>
+        <button class="btn_bottom typeB" type="button">취소</button>
+        <button class="btn_bottom" type="button">수정</button>
+    </div>
+    <script>
+    $(document).ready(function(){
+        var b_h = $('.bottom_area').outerHeight();
+        $('.btnbtn').click(function(){
+            var b_h = $('.bottom_area').outerHeight();
+           $('.content_area').css('padding-bottom', b_h+'px'); 
+        });
+    });
+    </script>
+</div>
+</body>
+</html>
