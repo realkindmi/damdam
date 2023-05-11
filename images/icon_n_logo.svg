@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#c5ccd9}.cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="icon_n_logo" transform="translate(-59 -531)">
+        <path id="사각형_311" d="M0 0h36v36H0z" class="cls-1" data-name="사각형 311" transform="translate(59 531)"/>
+        <circle id="타원_71" cx="12" cy="12" r="12" class="cls-2" data-name="타원 71" transform="translate(65 537)"/>
+        <path id="패스_488" d="M1.5 0h3.51c2.46 0 4.17-1.065 4.17-3.225A2.538 2.538 0 0 0 6.93-5.85v-.075A2.4 2.4 0 0 0 8.55-8.31c0-1.935-1.545-2.69-3.78-2.69H1.5zm1.395-6.315V-9.9h1.7c1.71 0 2.6.48 2.6 1.77 0 1.11-.765 1.815-2.655 1.815zm0 5.205v-4.14h1.92c1.92 0 3 .615 3 1.98 0 1.485-1.11 2.16-3 2.16z" class="cls-3" data-name="패스 488" transform="translate(72 554.5)"/>
+    </g>
+</svg>

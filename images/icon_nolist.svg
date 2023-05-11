@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.368" height="47.001" viewBox="0 0 48.368 47.001">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#bbb}.cls-2{fill:#8ecff9}
+        </style>
+    </defs>
+    <g id="icon_nolist" transform="translate(-156 -279)">
+        <path id="합치기_1" d="M-2530.5 778.5a23.048 23.048 0 0 1 23.1-23 23.048 23.048 0 0 1 23.095 23 22.829 22.829 0 0 1-2.746 10.887l3.557 7.674-8.258-1.645a23.066 23.066 0 0 1-15.647 6.083A23.048 23.048 0 0 1-2530.5 778.5z" class="cls-1" data-name="합치기 1" transform="translate(2687 -476)"/>
+        <g id="그룹_378" data-name="그룹 378" transform="translate(2 1)">
+            <circle id="타원_72" cx="2" cy="2" r="2" class="cls-2" data-name="타원 72" transform="translate(168 300)"/>
+            <circle id="타원_73" cx="2" cy="2" r="2" class="cls-2" data-name="타원 73" transform="translate(176 300)"/>
+            <circle id="타원_74" cx="2" cy="2" r="2" class="cls-2" data-name="타원 74" transform="translate(184 300)"/>
+        </g>
+    </g>
+</svg>

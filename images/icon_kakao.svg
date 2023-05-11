@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:#fae100}.cls-3{fill:#1e1e1e}
+        </style>
+    </defs>
+    <g id="icon_kakaob" transform="translate(-57 -354)">
+        <path id="사각형_268" d="M0 0h36v36H0z" class="cls-1" data-name="사각형 268" transform="translate(57 354)"/>
+        <g id="그룹_342" data-name="그룹 342" transform="translate(9.746 106.746)">
+            <rect id="사각형_288" width="21.208" height="21.208" class="cls-2" data-name="사각형 288" rx="2" transform="translate(55 255)"/>
+            <g id="그룹_341" data-name="그룹 341" transform="translate(61.54 259.671)">
+                <g id="그룹_340" data-name="그룹 340">
+                    <g id="그룹_339" data-name="그룹 339">
+                        <path id="패스_476" d="M1310.321 272.059a3.2 3.2 0 0 0-1.759-5.877h-5.362a.185.185 0 0 0-.186.185v11.382a.186.186 0 0 0 .186.186h5.366a3.2 3.2 0 0 0 1.759-5.877zm-2.634 2.675h-1.008v-5.35h1.008z" class="cls-3" data-name="패스 476" transform="translate(-1303.01 -266.182)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

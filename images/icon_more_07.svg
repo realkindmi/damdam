@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#1a1818}
+        </style>
+    </defs>
+    <g id="icon_more_07" transform="translate(-15 -487)">
+        <path id="사각형_297" d="M0 0h30v30H0z" class="cls-1" data-name="사각형 297" transform="translate(15 487)"/>
+        <g id="그룹_299" data-name="그룹 299" transform="translate(22.715 491.664)">
+            <g id="그룹_295" data-name="그룹 295">
+                <path id="패스_301" d="M5840.573 4716.509h-9.994a2.54 2.54 0 0 1-2.536-2.536v-14.65a2.54 2.54 0 0 1 2.536-2.536h9.994a2.539 2.539 0 0 1 2.536 2.536v14.65a2.539 2.539 0 0 1-2.536 2.536zm-9.994-19.052a1.868 1.868 0 0 0-1.866 1.866v14.65a1.869 1.869 0 0 0 1.866 1.867h9.994a1.87 1.87 0 0 0 1.867-1.867v-14.65a1.869 1.869 0 0 0-1.867-1.866z" class="cls-2" data-name="패스 301" transform="translate(-5828.043 -4696.787)"/>
+            </g>
+            <g id="그룹_296" data-name="그룹 296" transform="translate(.083 2.905)">
+                <path id="패스_302" d="M5843.355 4723.5h-14.229a.335.335 0 1 1 0-.669h14.229a.335.335 0 1 1 0 .669z" class="cls-2" data-name="패스 302" transform="translate(-5828.791 -4722.83)"/>
+            </g>
+            <g id="그룹_297" data-name="그룹 297" transform="translate(.083 15.217)">
+                <path id="패스_303" d="M5843.355 4833.881h-14.229a.334.334 0 1 1 0-.669h14.229a.334.334 0 1 1 0 .669z" class="cls-2" data-name="패스 303" transform="translate(-5828.791 -4833.212)"/>
+            </g>
+            <g id="그룹_298" data-name="그룹 298" transform="translate(5.617 17.088)">
+                <path id="패스_304" d="M5881.9 4850.648h-3.162a.334.334 0 1 1 0-.668h3.162a.334.334 0 0 1 0 .668z" class="cls-2" data-name="패스 304" transform="translate(-5878.401 -4849.98)"/>
+            </g>
+        </g>
+    </g>
+</svg>

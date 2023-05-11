@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#1a1818}
+        </style>
+    </defs>
+    <g id="prefix__icon_p_switch" transform="translate(-53 -205)">
+        <g id="prefix__그룹_394" data-name="그룹 394" transform="translate(61.709 213.004)">
+            <path id="prefix__패스_354" d="M7533.742 6496.331a.411.411 0 0 1-.411-.411v-6.454a.411.411 0 0 1 .411-.411h2.468a2.112 2.112 0 0 1 2.154 2.108 2.014 2.014 0 0 1-2.154 2.145h-1.161a.411.411 0 0 1 0-.823h1.161a1.2 1.2 0 0 0 1.332-1.322 1.29 1.29 0 0 0-1.332-1.285h-2.057v6.042a.412.412 0 0 1-.411.411z" class="prefix__cls-1" data-name="패스 354" transform="translate(-7533.331 -6489.055)"/>
+        </g>
+        <g id="prefix__그룹_423" data-name="그룹 423">
+            <path id="prefix__패스_355" d="M7504.279 6461.384a.41.41 0 0 0-.54.216l-.5 1.157a7.287 7.287 0 1 0-.525 4.963.411.411 0 0 0-.739-.362 6.469 6.469 0 1 1 .506-4.232l-1.162-.98a.411.411 0 0 0-.53.628l2.025 1.71a.416.416 0 0 0 .36.086.41.41 0 0 0 .283-.238l1.035-2.407a.412.412 0 0 0-.213-.541z" class="prefix__cls-1" data-name="패스 355" transform="rotate(25 17871.87 -13422.136)"/>
+        </g>
+        <path id="prefix__사각형_332" fill="none" d="M0 0H22V22H0z" data-name="사각형 332" opacity="0.24" transform="translate(53 205)"/>
+    </g>
+</svg>

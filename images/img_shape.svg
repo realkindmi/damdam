@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="15" viewBox="0 0 67 15">
+    <g id="prefix__img_shape" transform="translate(-147 -240)">
+        <g id="prefix__img_shape-2" data-name="img_shape" transform="translate(0 -1)">
+            <g id="prefix__shape_01" fill="#fbfbfb" stroke="#a3a3a3" stroke-width="0.5px">
+                <path stroke="none" d="M7 0h53a7 7 0 0 1 7 7v8H0V7a7 7 0 0 1 7-7z" transform="translate(147 241)"/>
+                <path fill="none" d="M7 .25h53A6.75 6.75 0 0 1 66.75 7v7.5a.25.25 0 0 1-.25.25H.5a.25.25 0 0 1-.25-.25V7A6.75 6.75 0 0 1 7 .25z" transform="translate(147 241)"/>
+            </g>
+            <path id="prefix__arrow_red" fill="#d03944" d="M3.5 1L7 6H0z" transform="rotate(180 92 126.5)"/>
+        </g>
+        <path id="prefix__사각형_347" fill="#fbfbfb" d="M0 0H66V1H0z" data-name="사각형 347" transform="translate(147.5 254)"/>
+    </g>
+</svg>
